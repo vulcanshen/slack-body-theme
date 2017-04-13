@@ -1,9 +1,9 @@
 .client_container, #search_terms, #client_body, #footer, ts-message, .channel_header {
-  background: #E5D6C7 !important;
+  background: #EEF5DF !important;
 }
 
 #msgs_scroller_div::-webkit-scrollbar-track, #client_body::before {
-  background: #E5D6C7 !important;
+  background: #EEF5DF !important;
 }
 
 #client_body::before {
@@ -31,13 +31,6 @@ ts-message, .channel_title .channel_name {
 .ts_icon {
   background: transparent;
   color: #222222;
-}
-
-
-.ql-editor p {
-  color: #E5D6C7;
-  -webkit-filter: invert(100%) !important!;
-  filter: invert(100%) !important;
 }
 
 #msg_input::-webkit-input-placeholder {
