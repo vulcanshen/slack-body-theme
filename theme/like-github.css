@@ -23,6 +23,7 @@ ts-message, .channel_title .channel_name {
 }
 
 #msg_input, #primary_file_button {
+  border-color: #666666 !important;
   background: transparent !important;
   color: #222222 !important;
 }
