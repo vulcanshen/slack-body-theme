@@ -32,13 +32,6 @@ ts-message, .channel_title .channel_name {
   color: #222222;
 }
 
-
-/*.ql-editor p {
-  color: #E8E6E0;
-  -webkit-filter: invert(100%) !important!;
-  filter: invert(100%) !important;
-}*/
-
 #msg_input::-webkit-input-placeholder {
   color: #222222 !important;
 }
