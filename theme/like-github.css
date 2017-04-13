@@ -1,9 +1,9 @@
 .client_container, #search_terms, #client_body, #footer, ts-message, .channel_header {
-  background: #F5F0EA !important;
+  background: #E8E6E0 !important;
 }
 
 #msgs_scroller_div::-webkit-scrollbar-track, #client_body::before {
-  background: #F5F0EA !important;
+  background: #E8E6E0 !important;
 }
 
 #client_body::before {
@@ -34,7 +34,7 @@ ts-message, .channel_title .channel_name {
 
 
 /*.ql-editor p {
-  color: #F5F0EA;
+  color: #E8E6E0;
   -webkit-filter: invert(100%) !important!;
   filter: invert(100%) !important;
 }*/
