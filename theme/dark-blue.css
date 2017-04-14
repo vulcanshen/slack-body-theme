@@ -64,7 +64,7 @@ code, pre {
 }
 
 pre {
-	background-color: #222222;
+	background-color: #222222 !important;
 }
 
 code {
@@ -73,7 +73,11 @@ code {
 
 
 .file_container {
-  background-color: #222222;
+  background-color: #222222 !important;
+}
+
+.file_container pre {
+  color: #DDDDDD;
 }
 
 .file_container:after {
