@@ -61,9 +61,6 @@ ts-message:hover, .day_divider .day_divider_label {
 
 pre {
 	color: #DDDDDD !important;
-}
-
-pre {
 	background-color: #222222 !important;
 }
 
@@ -85,8 +82,6 @@ code {
 .file_container:after {
   background-image: -webkit-linear-gradient(top,rgba(265,255,255,0) 0,#fff 300%) !important;
 }
-
-
 
 .bot_label { 
   padding: 0 4px !important;
