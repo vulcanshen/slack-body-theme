@@ -64,7 +64,16 @@ code, pre {
 }
 
 pre {
-	background: #222222 !important;
+	background: #222222;
+}
+
+code {
+  background-color: #005e99 !important;
+}
+
+
+.file_container {
+  background-color: #222;
 }
 
 .bot_label { 
