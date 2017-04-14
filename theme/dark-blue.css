@@ -59,6 +59,14 @@ ts-message:hover, .day_divider .day_divider_label {
   background: none !important;
 }
 
+code, pre {
+	color: #DDDDDD !important;
+}
+
+pre {
+	background: #222222 !important;
+}
+
 .bot_label { 
   padding: 0 4px !important;
   border-radius: 3px !important;
