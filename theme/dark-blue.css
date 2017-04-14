@@ -76,6 +76,12 @@ code {
   background-color: #222;
 }
 
+.file_container:after {
+  background-color: -webkit-linear-gradient(top,rgba(265,255,255,0) 0,#fff 300%) !important;
+}
+
+
+
 .bot_label { 
   padding: 0 4px !important;
   border-radius: 3px !important;
