@@ -77,7 +77,7 @@ code {
 }
 
 .file_container:after {
-  background-color: -webkit-linear-gradient(top,rgba(265,255,255,0) 0,#fff 300%) !important;
+  background-image: -webkit-linear-gradient(top,rgba(265,255,255,0) 0,#fff 300%) !important;
 }
 
 
