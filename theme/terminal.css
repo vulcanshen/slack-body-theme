@@ -15,7 +15,7 @@ ts-message, .channel_title .channel_name {
 }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content>.message_content_header>.message_content_header_left>.message_sender {
-  color: #00FF00 !important;
+  color: #FFFF00 !important;
 }
 
 .ql-placeholder {
