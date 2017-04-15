@@ -25,6 +25,7 @@ ts-message, .channel_title .channel_name {
 #msg_input, #primary_file_button {
   background: transparent !important;
   color: #00FF00 !important;
+  border-color: #00FF00 !important;
 }
 
 .ts_icon {
@@ -34,7 +35,7 @@ ts-message, .channel_title .channel_name {
 
 
 .ql-editor p {
-  /*color: #FF00FF;*/
+  color: #FF00FF;
   -webkit-filter: invert(100%) !important!;
   filter: invert(100%) !important;
 }
