@@ -11,11 +11,11 @@
 }
 
 ts-message, .channel_title .channel_name { 
-  color: #eee !important;
+  color: #00FF00 !important;
 }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content>.message_content_header>.message_content_header_left>.message_sender {
-  color: #00B2B3 !important;
+  color: #00FF00 !important;
 }
 
 .ql-placeholder {
@@ -52,7 +52,7 @@ ts-message, .channel_title .channel_name {
 }
 
 ts-message:hover, .day_divider .day_divider_label {
-  background: #1A2129 !important;
+  background: #000 !important;
 }
 
 #messages_container::after {
