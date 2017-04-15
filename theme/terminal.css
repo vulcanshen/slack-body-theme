@@ -34,11 +34,11 @@ ts-message, .channel_title .channel_name {
 }
 
 
-.ql-editor p {
-  /*color: #FF00FF;*/
-  -webkit-filter: invert(0%) !important!;
-  filter: invert(0%) !important;
-}
+/*.ql-editor p {
+  color: #FF00FF;
+  -webkit-filter: invert(100%) !important!;
+  filter: invert(100%) !important;
+}*/
 
 #msg_input::-webkit-input-placeholder {
   color: #00FF00 !important;
