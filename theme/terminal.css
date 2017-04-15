@@ -34,7 +34,7 @@ ts-message, .channel_title .channel_name {
 
 
 .ql-editor p {
-  color: #222222;
+  color: #FF00FF;
   -webkit-filter: invert(100%) !important!;
   filter: invert(100%) !important;
 }
