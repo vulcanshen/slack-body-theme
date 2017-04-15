@@ -24,23 +24,23 @@ ts-message, .channel_title .channel_name {
 
 #msg_input, #primary_file_button {
   background: transparent !important;
-  color: #eee !important;
+  color: #00FF00 !important;
 }
 
 .ts_icon {
   background: transparent;
-  color: #eee;
+  color: #00FF00;
 }
 
 
 .ql-editor p {
-  color: #FF00FF;
+  /*color: #FF00FF;*/
   -webkit-filter: invert(100%) !important!;
   filter: invert(100%) !important;
 }
 
 #msg_input::-webkit-input-placeholder {
-  color: #eee !important;
+  color: #00FF00 !important;
 }
 
 .day_divider .day_divider_label {
