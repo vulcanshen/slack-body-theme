@@ -11,11 +11,11 @@
 }
 
 ts-message, .channel_title .channel_name { 
-  color: #222222 !important;
+  color: #00FF00 !important;
 }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content>.message_content_header>.message_content_header_left>.message_sender {
-  color: #00FF00 !important;
+  color: #CD533B !important;
 }
 
 .ql-placeholder {
@@ -25,20 +25,20 @@ ts-message, .channel_title .channel_name {
 #msg_input, #primary_file_button {
   border-color: #666666 !important;
   background: transparent !important;
-  color: #222222 !important;
+  color: #00FF00 !important;
 }
 
 .ts_icon {
   background: transparent;
-  color: #222222;
+  color: #00FF00;
 }
 
 #msg_input::-webkit-input-placeholder {
-  color: #222222 !important;
+  color: #00FF00 !important;
 }
 
 .day_divider .day_divider_label {
-  color: #222222 !important;
+  color: #00FF00 !important;
 }
 
 .day_container .day_msgs {
