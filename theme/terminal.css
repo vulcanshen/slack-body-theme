@@ -7,50 +7,81 @@
 }
 
 #client_body::before {
-  border-bottom: 1px solid #DECAB7 !important;
+  border-bottom: 1px solid #1a2129 !important;
 }
 
 ts-message, .channel_title .channel_name { 
-  color: #00FF00 !important;
+  color: #eee !important;
 }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content>.message_content_header>.message_content_header_left>.message_sender {
-  color: #CD533B !important;
+  color: #00B2B3 !important;
 }
 
 .ql-placeholder {
-  color: #555555 !important;
+  color: #AAA !important;
 }
 
 #msg_input, #primary_file_button {
-  border-color: #666666 !important;
   background: transparent !important;
-  color: #00FF00 !important;
+  color: #eee !important;
 }
 
 .ts_icon {
   background: transparent;
-  color: #00FF00;
+  color: #eee;
+}
+
+
+.ql-editor p {
+  color: #222222;
+  -webkit-filter: invert(100%) !important!;
+  filter: invert(100%) !important;
 }
 
 #msg_input::-webkit-input-placeholder {
-  color: #00FF00 !important;
+  color: #eee !important;
 }
 
 .day_divider .day_divider_label {
-  color: #00FF00 !important;
+  color: #eee !important;
 }
 
 .day_container .day_msgs {
-  border-top: 1px solid #DECAB7 !important;
+  border-top: 1px solid #1a2129 !important;
 }
 
 ts-message:hover, .day_divider .day_divider_label {
-  background: #000000 !important;
+  background: #1A2129 !important;
 }
 
 #messages_container::after {
   background: none !important;
+}
+
+pre {
+  color: #DDDDDD !important;
+  border: 1px dashed #DDDDDD;
+  background-color: #222222 !important;
+}
+
+code {
+    background-color: #222 !important;
+    color: #00FF00 !important;
+    border: 1px solid #222 !important;
+}
+
+
+.file_container {
+  background-color: #222222 !important;
+}
+
+.file_container pre {
+  color: #DDDDDD;
+}
+
+.file_container:after {
+  background-image: none !important;
 }
 
 .bot_label { 
