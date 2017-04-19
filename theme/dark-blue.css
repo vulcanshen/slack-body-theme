@@ -14,6 +14,10 @@ ts-message, .channel_title .channel_name {
   color: #eee !important;
 }
 
+#message_edit_container .message_input {
+	background: #282c34 !important;
+}
+
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content>.message_content_header>.message_content_header_left>.message_sender {
   color: #00B2B3 !important;
 }
