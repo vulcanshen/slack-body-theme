@@ -92,3 +92,7 @@ code {
   border-radius: 3px !important;
   background: #0a233a !important;
 }
+
+.c-message__body, .c-message__sender_link {
+  color: white !important;
+}
