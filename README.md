@@ -4,8 +4,9 @@ Customize your slack body them, For Slack.app (OS X)
 
 ## For Slack 3.X
 
-add following script in ssb-interop.js
-right after `init(resourcePath, mainModule, !isDevMode);`
+edit **/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js**
+
+add following script at very bottom, in my case, after `init(resourcePath, mainModule, !isDevMode);`
 
 ```
 document.addEventListener('DOMContentLoaded', function() {
