@@ -93,6 +93,17 @@ code {
   background: #0a233a !important;
 }
 
-.c-message__body, .c-message__sender_link {
+.c-message__sender_link {
+	color: #86e0f7 !important;
+}
+.c-message__body {
   color: white !important;
+}
+
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: rgb(59, 108, 119);
+}
+
+a, a:link, a:visited {
+    color: #f5a200 !important;
 }
