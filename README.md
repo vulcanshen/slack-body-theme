@@ -1,9 +1,26 @@
 # slack-body-theme
 
-Customize your slack body them
+Customize your slack body them, For Slack.app (OS X)
+
+## For Slack 3.X
+
+add following script in ssb-interop.js
+right after `init(resourcePath, mainModule, !isDevMode);`
+
+```
+document.addEventListener('DOMContentLoaded', function() {
+  $.ajax({
+   url: 'https://raw.githubusercontent.com/shenyun2304/slack-body-theme/master/theme/dark-blue.css',
+   success: function(css) {
+     $("<style></style>").appendTo('head').html(css);
+   }
+ });
+});
+```
 
 
-## Using Slack.app (OS X)
+## For Slack 2.X
+
 edit **/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/index.js**
 
 1.**setTheme()** function in index.js
